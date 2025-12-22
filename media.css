@@ -1,0 +1,416 @@
+@media (max-width: 1200px) {
+
+    .navbar,
+    .hero,
+    #profile,
+    .stats-break,
+    #services,
+    #gallery,
+    .break-maps,
+    #recensioni,
+    #blog,
+    .site-footer,
+    #servizi-ext,
+    #page-not-found,
+    #contact {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    #article-blog {
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+    }
+
+    /* home */
+    .hero-title {
+        font-size: 2.8rem;
+    }
+
+    #page-not-found h1 {
+        font-size: 2.8rem !important;
+    }
+
+    .container-pre-content h1 {
+        font-size: 2rem !important;
+    }
+
+    /* profile */
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    #profile {
+        padding: 100px;
+    }
+
+    #container-profile-2 {
+        margin-top: 90px;
+    }
+
+    #profile .container-profile,
+    .break-maps .container-profile {
+        gap: 30px;
+    }
+
+    #profile .container-profile .container-img,
+    .break-maps .container-profile .container-img {
+        height: 600px;
+    }
+
+    /* break */
+    .stats-container {
+        gap: 30px;
+    }
+
+    .stat-box h2 {
+        font-size: 2.3rem;
+    }
+
+    /* services */
+    #services,
+    #servizi-ext {
+        padding: 100px;
+    }
+
+    .services-content {
+        gap: 15px;
+    }
+
+    .services-box img {
+        margin: 5px 0 15px;
+        width: 65px;
+        height: 125px;
+    }
+
+    /* gallery */
+    #gallery {
+        padding: 100px;
+    }
+
+    .container-gallery {
+        gap: 15px;
+    }
+
+    /* recensioni */
+    #recensioni {
+        padding: 100px;
+    }
+
+    /* footer */
+    .footer-container {
+        gap: 15px;
+    }
+
+    /* contatti */
+    #contact {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .navbar,
+    .hero,
+    #profile,
+    .stats-break,
+    #services,
+    #gallery,
+    .break-maps,
+    #recensioni,
+    #blog,
+    .site-footer,
+    #servizi-ext,
+    #page-not-found,
+    #contact {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    #article-blog {
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    /* home */
+    .hero-title {
+        font-size: 2.2rem;
+        max-width: 100%;
+    }
+
+    #page-not-found h1 {
+        font-size: 2.2rem !important;
+    }
+
+    .container-pre-content h1 {
+        font-size: 2rem !important;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    /* profile */
+    #profile .container-profile,
+    .break-maps .container-profile {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #profile #container-profile-2 {
+        flex-direction: column-reverse;
+    }
+
+    #profile .container-profile .container-img,
+    .break-maps .container-profile .container-img {
+        width: 100%;
+        height: 350px;
+    }
+
+    #profile .container-profile .container-text,
+    .break-maps .container-profile .container-text {
+        width: 100%;
+    }
+
+    /* break */
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat-box h2 {
+        font-size: 2rem;
+    }
+
+    /* servizi */
+    .container-pre-content p {
+        max-width: 100%;
+    }
+
+    .container-pre-content .pre-title {
+        text-align: center;
+    }
+
+    .services-content,
+    #servizi-ext .servizi-ext-content {
+        grid-template-columns: repeat(auto-fit, minmax(calc(100% - 30px), 1fr));
+        gap: 30px;
+    }
+
+    /* gallery */
+    .container-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(calc(100% - 30px), 1fr));
+        gap: 30px;
+    }
+
+    /* recensioni  */
+    .container-reviews {
+        grid-template-columns: repeat(auto-fit, minmax(calc(100% - 30px), 1fr));
+        gap: 30px;
+    }
+
+    /* blog */
+    .blog-content {
+        grid-template-columns: repeat(auto-fit, minmax(calc(100% - 30px), 1fr));
+        gap: 30px;
+    }
+
+    /* footer */
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* contatti */
+    .contact-content {
+        grid-template-columns: repeat(auto-fit, minmax(calc(100% - 30px), 1fr));
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 830px) {
+
+    /* --- HEADER --- */
+    .navbar-center,
+    .navbar-right {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+        right: 30px;
+    }
+
+    .nav-toggle svg {
+        fill: var(--color5);
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        right: -100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 100px;
+        z-index: 2000;
+        transition: right 0.8s ease;
+        background-color: #282828;
+        overflow: auto;
+    }
+
+    .menu a {
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding: 16px 0;
+        border-bottom: 2px solid #ffffff45;
+    }
+
+    #link-contact-nav {
+        color: var(--color1) !important;
+        font-weight: bold !important;
+    }
+
+    #contact-menu {
+        display: block !important;
+        margin-right: 80px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .navbar,
+    .hero,
+    #profile,
+    .stats-break,
+    #services,
+    #gallery,
+    .break-maps,
+    #recensioni,
+    #blog,
+    .site-footer,
+    #servizi-ext,
+    #page-not-found,
+    #contact {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    #article-blog {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .nav-toggle {
+        right: 20px;
+    }
+
+    #contact-menu {
+        margin-right: 50px;
+    }
+
+    .navbar-left img {
+        height: 70px !important;
+    }
+
+    /* home */
+    .home-reviews .user-container .user {
+        width: 50px;
+        height: 50px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    #page-not-found h1 {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .container-pre-content h1 {
+        font-size: 2rem !important;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    /* profile */
+    #profile {
+        padding: 90px;
+    }
+
+    #profile .container-profile .container-img,
+    .break-maps .container-profile .container-img {
+        height: 300px;
+    }
+
+    /* break  */
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    /* service */
+    #services,
+    #servizi-ext {
+        padding: 90px;
+    }
+
+    .services-box img,
+    #servizi-ext .servizi-ext-box img {
+        height: 120px;
+    }
+
+    /* gallery */
+    #gallery {
+        padding: 90px;
+    }
+
+    #recensioni {
+        padding: 90px;
+    }
+
+    #blog {
+        padding: 90px;
+    }
+
+    #article-blog .container-pre-content img {
+        height: 250px;
+    }
+
+    #article-blog .container-pre-content h2 {
+        text-align: center;
+    }
+
+    /* contatti */
+    #contact {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 350px) {
+    #contact-menu {
+        display: none !important;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+    }
+}
