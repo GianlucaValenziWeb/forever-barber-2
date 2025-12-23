@@ -175,6 +175,11 @@
         width: 100%;
     }
 
+    #profile .container-profile .container-text p,
+    .break-maps .container-profile .container-text p {
+        width: 100%;
+    }
+
     /* break */
     .stats-container {
         flex-direction: column;
@@ -321,7 +326,7 @@
     }
 
     #contact-menu {
-        margin-right: 50px;
+        margin-right: 60px;
     }
 
     .navbar-left img {
@@ -335,16 +340,16 @@
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     #page-not-found h1 {
-        font-size: 2rem !important;
+        font-size: 2.1rem !important;
         text-align: center;
     }
 
     .container-pre-content h1 {
-        font-size: 2rem !important;
+        font-size: 2.1rem !important;
     }
 
     .hero-text {
@@ -371,11 +376,6 @@
     #services,
     #servizi-ext {
         padding: 90px;
-    }
-
-    .services-box img,
-    #servizi-ext .servizi-ext-box img {
-        height: 120px;
     }
 
     /* gallery */

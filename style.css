@@ -699,8 +699,9 @@ h3 {
 
 .footer-col p a {
     color: var(--color1);
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     margin-left: 5px;
+    font-weight: bold;
 }
 
 .footer-col a:hover {
@@ -708,12 +709,12 @@ h3 {
 }
 
 /* TITLES */
-h4 {
+.footer-col-title{
     font-family: "Oswald", sans-serif;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 15px;
-    color: var(--color1);
+    color: var(--color4);
 }
 
 /* LIST */
