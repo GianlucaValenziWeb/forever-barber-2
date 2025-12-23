@@ -55,8 +55,7 @@ header {
 }
 
 .navbar.scrolled {
-    backdrop-filter: blur(10px);
-    background-color: hsla(0, 0%, 12%, 0.85);
+    background-color: #1f1f1f;
 }
 
 .navbar-left {
@@ -675,8 +674,7 @@ h3 {
 
 /* --------------------------------------- FOOTER ------------------------------------- */
 .site-footer {
-    backdrop-filter: blur(10px);
-    background-color: hsla(0, 0%, 12%, 0.85);
+    background-color: #1f1f1f;
     padding: 80px 120px 40px;
 }
 
@@ -709,7 +707,7 @@ h3 {
 }
 
 /* TITLES */
-.footer-col-title{
+.footer-col-title {
     font-family: "Oswald", sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
